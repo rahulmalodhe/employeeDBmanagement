@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="mainContainer">
+      <div class="title">
+        <h1>Employee database management system</h1>
+        <button class="addEmployeeBtn">Add Employee +</button>
+      </div>
+
+      <div class="employeeInfoContainer">
+        <div class="employeeList">
+          <p class="heading">Employee List</p>
+          <div id="listOfEmployees"></div>
+        </div>
+        <div class="employeeInformation">
+          <p class="heading">Employee Information</p>
+          <div id="empInfo"></div>
+        </div>
+      </div>
+      <div class="addEmployee">
+        <form class="addEmployeeContainer">
+          <h3 class="title">Create an Employee</h3>
+          <div>
+          <input type="text" name="firstName" placeholder="First Name" />
+          <input type="text" name="lastName" placeholder="Last Name" />
+        </div>
+
+          <input type="text" name="imgUrl" placeholder="Image url (optional)" />
+          <input type="email" name="email" placeholder="Email" />
+          <input type="text" name="contact" placeholder="Contact" />
+          <input type="number" name="salary" placeholder="Salary" />
+          <input type="text" name="address" placeholder="Address" />
+          <input type="date" name="date" placeholder="MM/DD/YY" />
+          <input
+            type="submit"
+            class="addEmployee_create--submit"
+            value="Submit"
+          />
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

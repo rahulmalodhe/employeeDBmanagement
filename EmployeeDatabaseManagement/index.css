@@ -1,0 +1,139 @@
+:root {
+  margin: -10px;
+  padding: 0;
+}
+body {
+  width: 100%;
+  margin: 0px;
+}
+.title {
+  margin: 10px 15px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainContainer {
+  margin: 10px;
+  padding: 10px;
+}
+
+.employeeInfoContainer {
+  width: 95%;
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+}
+.employeeList {
+  width: 25%;
+  border-right: 1px solid black;
+}
+#listOfEmployees {
+  overflow-y: scroll;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employeeInformation {
+  width: 75%;
+}
+.heading {
+  border-bottom: 1px solid #aaa;
+  padding: 5px;
+  margin: 5px;
+}
+.red {
+  color: red;
+  cursor: pointer;
+}
+.employeeCard {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  background-color: #eee;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.employeeCard:hover {
+  background-color: #cacaca;
+}
+.selected {
+  background-color: #dbdbdb;
+}
+.empInfo {
+  font-size: 14px;
+  margin: 10px;
+  padding: 10px;
+}
+.userImg {
+  width: 150px;
+  margin-bottom: 10px;
+}
+p {
+  margin: 5px;
+}
+.addEmployeeBtn {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #dbdbdb;
+}
+.addEmployeeBtn:hover {
+  background-color: #cacaca;
+}
+.addEmployee {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(141, 141, 141, 0.541);
+}
+.addEmployeeContainer {
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 0 50px grey;
+  padding: 25px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.addEmployeeContainer > div {
+  display: grid;
+  grid-template-columns: 48.1% 48.1%;
+  column-gap: 15px;
+}
+.addEmployeeContainer input {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(236, 236, 236);
+}
+.addEmployee_create--submit {
+  padding: 10px !important;
+  border-radius: 5px;
+  border: none;
+  background-color: #dbdbdb;
+  cursor: pointer;
+}
+.addEmployee_create--submit:hover {
+  background-color: #cacaca;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  margin: 10px auto;
+}
